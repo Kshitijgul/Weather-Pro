@@ -1,0 +1,110 @@
+body{
+    background-image: url("bg.jpg");
+    background-color: steelblue;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    width: 50%;
+    background-color: wheat;
+    align-self: center;
+    display: block;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    box-shadow: 10px 5px 20px black;
+}
+.app-title{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 40%;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid steelblue;
+}
+.notification{
+    background-color: white;
+    display: none;
+}
+.notification > p{
+    color: maroon;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.weather-container{
+    width: 100%;
+    height: 260px;
+    background-color: white;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-icon img{
+    margin: 0 auto;
+    width: 150px;
+}
+.location-icon{
+    width: 40%;
+    height: 40px;
+    padding: 10px;
+
+}
+.location-icon img{
+    display: block;
+    width: 32px;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 5px;
+    border: steelblue solid 2px;
+    border-radius: 10px;
+    color: steelblue;
+}
+.temprature-value p{
+    padding: 30px;
+    margin: 0;
+    color: blueviolet;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+.temprature-value span{
+    color: blueviolet;
+    font-size: 0.5em;
+}
+.temprature-description p{
+    font-size: 2em;
+    font-weight: 500;
+}
+.location p{
+    margin: 20px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+
+/* //////////////////////////////////////
+ */
+
+div .relative{
+    position:absolute;
+    top: 600px;
+    right: 120px;
+
+}
